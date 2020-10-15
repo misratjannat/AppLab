@@ -1,0 +1,306 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.featured-section,
+    .jackpot-section,
+    .auto-payout-section,
+    .code-section,
+    .qualities-section,
+    .weBuild-section,
+    .pricing-section,
+    .testimonial-section,
+    .question-section,
+    .download-section,
+    .footer-section{
+    	padding: 15px 0;
+    }
+	/*reusable component*/
+    .title{
+		font-size: 32px;
+	}
+	h4{
+    	font-size: 18px;
+    }
+	/*Header Section*/
+    header ul li{
+    	display: block;
+    	width: 100%;
+    	text-align: right;
+    }
+    header ul li a{
+    	padding: 10px 0 !important;
+    }
+    /*Banner Section*/
+    .banner-section {
+        padding: 20px 5%;
+    }
+    .banner-section .title{
+    	font-size: 40px;
+    }
+    .editor-choice span {
+	    font-size: 14px;
+	    padding: 0 20px 0 0;
+	}
+	.banner-btn .watch-link{
+		display: block;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	/*Featured section*/
+	.featured-icon{
+		width: 55px;
+	    padding: 10px;
+	    border-radius: 50%;
+	}
+	/*Jackpot Section*/
+    .jackpot-left .title{
+		font-size: 30px;
+		max-width: 380px;
+	}
+	.jackpot-left{
+		border-right: none;
+		padding-right: 0;
+	}
+	/*auto-payout-section*/
+	.auto-payout-section .featured-item{
+		padding: 5px 0;
+	}
+	/*Code Section*/
+	.code-content{
+		margin-left: 0;
+		padding: 10px 0;
+	}
+	/*qualities section*/
+	.qualities-section{
+		text-align: left;
+	}
+	.qualities-title h2{
+		margin: 0;
+		margin-top: 20px;
+	    text-align: left;
+	}
+	.qualities-title p{
+		max-width: 675px;
+		margin: 0;
+	    text-align: left;
+	}
+	.single-quality .featured-icon,
+	.single-quality .featured-details p{
+		text-align: left;
+		margin: 0;
+	}
+	.single-quality {
+	    margin-top: 20px;
+	}
+	/*WeBuild Section*/
+	.single-quality h4,
+	.weBuild-item h4{
+	    font-size: 18px;
+	}
+	/*testimonial-section start*/
+	.testimonial-section{
+		background: none;
+	}
+	/*download-section start*/
+	.download-section{
+		background: none;
+		position: relative;
+        bottom: 0px;
+	}
+	/*Footer section*/
+	.footer-nav-menu ul, .footer-social-icon ul{
+		margin: 0
+	}
+	.footer-nav-menu ul li, .footer-social-icon ul li{
+		padding: 5px;
+	}
+	.copy-right{
+		margin: 0;
+	}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .featured-section,
+    .jackpot-section,
+    .auto-payout-section,
+    .code-section,
+    .qualities-section,
+    .weBuild-section,
+    .pricing-section,
+    .testimonial-section,
+    .question-section,
+    .download-section,
+    .footer-section{
+    	padding: 30px 0;
+    }
+    /*reusable component*/
+    .title{
+		font-size: 36px;
+	}
+	h4{
+    	font-size: 18px;
+    }
+    /*Header Section*/
+    header ul li{
+    	display: block;
+    	width: 100%;
+    	text-align: right;
+    }
+    header ul li a{
+    	padding: 10px 0 !important;
+    }
+    /*Banner Section*/
+    .banner-section {
+        padding: 20px 5%;
+    }
+    .banner-section .title{
+    	font-size: 35px;
+    }
+    .editor-choice span {
+	    font-size: 16px;
+	    padding: 0 20px 0 0;
+	}
+	/*Featured section*/
+	.featured-icon{
+		width: 60px;
+	    padding: 10px;
+	    border-radius: 50%;
+	}
+	/*Jackpot Section*/
+    .jackpot-left .title{
+		font-size: 32px;
+		max-width: 380px;
+	}
+	.jackpot-left{
+		border-right: none;
+		padding-right: 0;
+	}
+	/*auto-payout-section*/
+	.auto-payout-section .featured-item{
+		padding: 10px 0;
+	}
+	/*Code Section*/
+	.code-content{
+		margin-left: 0;
+	}
+	/*qualities section*/
+	.qualities-section{
+		text-align: left;
+	}
+	.qualities-title h2{
+		margin: 0;
+		margin-top: 20px;
+	    text-align: left;
+	}
+	.qualities-title p{
+		max-width: 675px;
+		margin: 0;
+	    text-align: left;
+	}
+	.single-quality .featured-icon,
+	.single-quality .featured-details p{
+		text-align: left;
+		margin: 0;
+	}
+	.single-quality {
+	    margin-top: 20px;
+	}
+	/*WeBuild Section*/
+	.single-quality h4,
+	.weBuild-item h4{
+	    font-size: 18px;
+	}
+	/*testimonial-section start*/
+	.testimonial-section{
+		background: none;
+	}
+	/*download-section start*/
+	.download-section{
+		background: none;
+		position: relative;
+        bottom: 0px;
+	}
+	/*Footer section*/
+	.footer-nav-menu ul, .footer-social-icon ul{
+		margin: 0
+	}
+	.footer-nav-menu ul li, .footer-social-icon ul li{
+		padding: 10px;
+	}
+	.footer-nav-menu ul li a{
+		font-size: 14px;
+	}
+	.copy-right{
+		margin: 0;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*reusable component*/
+    h4{
+    	font-size: 18px;
+    }
+    .title{
+		font-size: 28px;
+	}
+    /*Header Section*/
+    header ul li{
+    	display: block;
+    	width: 100%;
+    	text-align: right;
+    }
+    header ul li a{
+    	padding: 10px 0 !important;
+    }
+    /*Banner Section*/
+    .banner-section {
+        padding: 20px 5%;
+    }
+    .banner-section .title{
+    	font-size: 40px;
+    }
+    .editor-choice span{
+		font-size: 16px;
+		padding: 0 40px 0 0;
+	}
+	/*Featured section*/
+	.featured-item{
+		padding: 10px 0;
+	}
+	.featured-icon{
+		width: 60px;
+	    padding: 10px;
+	    border-radius: 50%;
+	}
+	/*Jackpot Section*/
+    .jackpot-left .title{
+		font-size: 28px;
+		max-width: 380px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*reusable component*/
+    .title{
+		font-size: 32px;
+	}
+	/*Banner Section*/
+    .banner-section {
+        padding: 20px 5%;
+    }
+    .banner-section .title{
+    	font-size: 50px;
+    }
+    /*Jackpot Section*/
+    .jackpot-left .title{
+		font-size: 35px;
+		max-width: 380px;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
